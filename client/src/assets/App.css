@@ -1,0 +1,12 @@
+/* div block containing the entire app */
+.app {
+  width: 1400px;
+  margin: auto 100px;
+  border: 1px solid grey;
+}
+
+/* div block containing the 2 car components */
+.carComponents {
+  display: grid;
+  grid-template-columns: 800px 400px;
+}
